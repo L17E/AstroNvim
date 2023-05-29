@@ -18,4 +18,11 @@ return {
   "neovim/nvim-lspconfig",
 
   "JoosepAlviste/palenightfall.nvim",
+
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 }
